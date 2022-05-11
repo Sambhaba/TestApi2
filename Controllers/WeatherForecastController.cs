@@ -36,7 +36,11 @@ namespace testapi.Controllers
             .ToArray();
         }
 
-        public string Add()
+        public string AddName()
+        {
+            return "test new commit";
+        }
+         public string AddAddress()
         {
             return "test new commit";
         }
